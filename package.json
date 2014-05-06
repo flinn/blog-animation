@@ -1,8 +1,8 @@
 {
-  "name": "blog-animation",
+  "name": "terminalify",
   "version": "0.1.0",
   "description": "Animations for my blog",
-  "main": "blog-animation.js",
+  "main": "lib/terminalify.js",
   "scripts": {
     "test": "npm run-script test"
   },
@@ -17,5 +17,10 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/flinn/blog-animation/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-urequire": "^0.6.0"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "name": "blog-animation",
+  "version": "0.1.0",
+  "description": "Animations for my blog",
+  "main": "blog-animation.js",
+  "scripts": {
+    "test": "npm run-script test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flinn/blog-animation.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "Matt Flinn",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/flinn/blog-animation/issues"
+  }
+}

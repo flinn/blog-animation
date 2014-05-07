@@ -19,8 +19,15 @@
     "url": "https://github.com/flinn/blog-animation/issues"
   },
   "devDependencies": {
-    "grunt": "^0.4.4",
+    "grunt": "~0.4.4",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-urequire": "^0.6.0"
+    "browserify": "~3.46.0",
+    "grunt-browserify": "~2.0.8",
+    "gulp-browserify": "~0.5.0",
+    "gulp": "~3.6.2",
+    "load-grunt-tasks": "~0.4.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-livereload": "~1.4.2",
+    "gulp-watch": "~0.6.4"
   }
 }

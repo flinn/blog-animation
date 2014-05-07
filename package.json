@@ -1,39 +1,40 @@
 {
-    "name": "terminalify",
-    "version": "0.1.0",
-    "description": "Animations for my blog",
-    "main": "lib/terminalify.js",
-    "scripts": {
-        "test": "npm run-script test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/flinn/blog-animation.git"
-    },
-    "keywords": [
-        "animation"
-    ],
-    "author": "Matt Flinn",
-    "license": "BSD-2-Clause",
-    "bugs": {
-        "url": "https://github.com/flinn/blog-animation/issues"
-    },
-    "devDependencies": {
-        "grunt": "~0.4.4",
-        "grunt-contrib-watch": "^0.6.1",
-        "browserify": "~3.46.0",
-        "grunt-browserify": "~2.0.8",
-        "gulp-browserify": "~0.5.0",
-        "gulp": "~3.6.2",
-        "load-grunt-tasks": "~0.4.0",
-        "gulp-rename": "~1.2.0",
-        "gulp-livereload": "~1.4.2",
-        "gulp-watch": "~0.6.4",
-        "connect": "~2.15.0",
-        "gulp-open": "~0.2.8",
-        "grunt-concurrent": "~0.5.0",
-        "grunt-contrib-connect": "~0.7.1",
-        "time-grunt": "~0.3.1",
-        "load-grunt-config": "~0.9.1"
-    }
+  "name": "terminalify",
+  "version": "0.1.0",
+  "description": "Animations for my blog",
+  "main": "lib/terminalify.js",
+  "scripts": {
+    "test": "npm run-script test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flinn/blog-animation.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "Matt Flinn",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/flinn/blog-animation/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "browserify": "~3.46.0",
+    "grunt-browserify": "~2.0.8",
+    "gulp-browserify": "~0.5.0",
+    "gulp": "~3.6.2",
+    "load-grunt-tasks": "~0.4.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-livereload": "~1.4.2",
+    "gulp-watch": "~0.6.4",
+    "connect": "~2.15.0",
+    "gulp-open": "~0.2.8",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-contrib-connect": "~0.7.1",
+    "time-grunt": "~0.3.1",
+    "load-grunt-config": "~0.9.1",
+    "path": "~0.4.9"
+  }
 }

@@ -1,5 +1,5 @@
 module.exports = {
-    target: {
+    watchserver: {
         tasks: ['browserify', 'connect', 'watch'],
         options: {
             logConcurrentOutput: true

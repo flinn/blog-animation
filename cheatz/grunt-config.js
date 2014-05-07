@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
     configPath: path.join(process.cwd(), 'tasks'), //path to task.js files, defaults to grunt dir
     init: true, //auto grunt.initConfig

@@ -20,7 +20,7 @@ gulp.task('scripts', function() {
         }));
 });
 
-gulp.task('server', ['scripts'], function(next) {
+gulp.task('server', ['scripts'], function(next) { // Orchestrator is what runs the dependent scripts for Gulp
     var connect = require('connect'),
         server = connect();
     server.use(connect.static('good')).listen(process.env.PORT || 3800, next);

@@ -28,6 +28,12 @@
     "load-grunt-tasks": "~0.4.0",
     "gulp-rename": "~1.2.0",
     "gulp-livereload": "~1.4.2",
-    "gulp-watch": "~0.6.4"
+    "gulp-watch": "~0.6.4",
+    "connect": "~2.15.0",
+    "gulp-open": "~0.2.8",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-contrib-connect": "~0.7.1",
+    "time-grunt": "~0.3.1",
+    "load-grunt-config": "~0.9.1"
   }
 }
